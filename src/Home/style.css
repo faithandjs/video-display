@@ -20,7 +20,7 @@
   align-items: center;
 }
 .box video {
-  z-index: -1;
+  /* z-index: -1; */
   width: 160%;
   min-height: 100%;
   object-fit: cover;
@@ -59,17 +59,16 @@
   grid-row: 8/11;
 }
 
-/* @media screen and (max-width: 650px) {
-  .box video {
+@media screen and (max-width: 650px) {
+  /* .box video {
     height: 150%;
-  }
+  } */
   .v0 video,
   .v6 video {
-    width: unset;
-    height: unset;
+    width: 175%;
     object-position: bottom;
     /* width: calc(100% + 50px);
-    height: calc(100% + 50px); 
+    height: calc(100% + 50px); */
   }
-} */
+}
 
