@@ -1,4 +1,5 @@
 .container {
+  background: white;
   margin: auto;
   height: 100vh;
   max-width: 1200px;
@@ -17,13 +18,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
 }
 .box video {
-  /* border-radius: 1rem; */
   z-index: -1;
-  width: 150%;
+  width: 160%;
   min-height: 100%;
   object-fit: cover;
   object-position: center;
