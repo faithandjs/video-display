@@ -17,8 +17,8 @@ export default function Box({
 
       child.to('.box video', {
         ease: 'none',
-        rotation: -360,
-        scale: 2,
+        rotation: -270,
+        scale: 2.3,
         duration: 1,
         repeat: 0,
       });

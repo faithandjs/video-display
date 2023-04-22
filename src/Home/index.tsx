@@ -4,7 +4,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import Box from '../components/box';
 
-import a from '../assets/b.mp4';
+import a from '../assets/a.mp4';
+import b from '../assets/b.mp4';
+import c from '../assets/c.mp4';
+import d from '../assets/d.MP4';
 
 import './style.css';
 
@@ -17,7 +20,7 @@ export default function Index() {
 
       tl.to('.container', {
         ease: 'none',
-        rotation: 360,
+        rotation: 270,
         scale: 2,
         duration: 1,
         repeat: 0,
@@ -39,7 +42,7 @@ export default function Index() {
 
   return (
     <div className='container'>
-      {[a, a, a, a, a, a, a, a].map((item, key) => (
+      {[b, d, c, c, d, d, b, c].map((item, key) => (
         <Box key={key} className={`v${key}`} src={item} />
       ))}
     </div>
