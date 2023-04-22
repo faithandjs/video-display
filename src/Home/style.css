@@ -19,7 +19,9 @@
   align-items: center;
 }
 .box video {
+  border-radius: 1rem;
   width: 150%;
+  min-height: 100%;
   object-fit: cover;
   object-position: center;
 }
