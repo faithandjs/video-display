@@ -2,6 +2,7 @@
   margin: auto;
   height: 100vh;
   max-width: 1200px;
+  min-width: 650px;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(15, 1fr);
@@ -19,7 +20,6 @@
 }
 .box video {
   width: 150%;
-  /* height: 150%; */
   object-fit: cover;
   object-position: center;
 }
@@ -55,4 +55,18 @@
   grid-column: 10/13;
   grid-row: 8/11;
 }
+
+/* @media screen and (max-width: 650px) {
+  .box video {
+    height: 150%;
+  }
+  .v0 video,
+  .v6 video {
+    width: unset;
+    height: unset;
+    object-position: bottom;
+    /* width: calc(100% + 50px);
+    height: calc(100% + 50px); 
+  }
+} */
 
