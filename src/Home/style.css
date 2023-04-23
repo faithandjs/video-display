@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
 }
-.box video {
+.box img {
   width: 160%;
   min-height: 100%;
   object-fit: cover;
@@ -60,11 +60,11 @@
 }
 
 @media screen and (max-width: 650px) {
-  /* .box video {
+  /* .box img {
     height: 150%;
   } */
-  .v0 video,
-  .v6 video {
+  .v0 img,
+  .v6 img {
     width: 175%;
     object-position: bottom;
     /* width: calc(100% + 50px);

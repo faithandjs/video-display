@@ -15,7 +15,7 @@ export default function Box({
     let ctx = gsap.context(() => {
       const child = gsap.timeline();
 
-      child.to('.box video', {
+      child.to('.box img', {
         ease: 'none',
         rotation: -270,
         scale: 2.3,
@@ -36,9 +36,10 @@ export default function Box({
 
   return (
     <div className={'box ' + className}>
-      <video src={src} autoPlay muted loop playsInline>
+      {/* <video src={src} autoPlay muted loop playsInline>
         Your browser does not support the video tag.
-      </video>
+      </video> */}
+      <img src={src} alt='' />
     </div>
   );
 }
