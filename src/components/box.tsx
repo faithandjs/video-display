@@ -36,7 +36,7 @@ export default function Box({
 
   return (
     <div className={'box ' + className}>
-      <video src={src} autoPlay muted loop>
+      <video src={src} autoPlay muted loop playsInline>
         Your browser does not support the video tag.
       </video>
     </div>
